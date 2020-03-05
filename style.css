@@ -1,9 +1,9 @@
-*{
+body{
     margin: 0px auto;
-    width: 960px;
+    width: 900px;
     background-color: brown;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: burlywood;
+    /* color: burlywood; */
 }
 
 header > h1 {
@@ -27,13 +27,33 @@ header > nav > ul > li {
     background-color: cadetblue;
 }
 
-main > article > img {
-    display: inline-block;
-    border: 1px solid black;
-    width: 100px;
-    margin: 5px;
-    padding: 5px;
+article {
+    float: right;
+    width: 33%;
+    margin: 0px auto;
     text-align: center;
-    border-radius: 25px;
+} 
+
+ img {
+    width: 300px;
+    display: inline-block;
+    padding: 5px;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
     background-color: cadetblue;
+    border: 1px solid black;
+    border-radius: 25px;
+} 
+
+img {
+    width: 100px;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section {
+    width: 50%;
+    float: left;
+    text-align: center;
 }
